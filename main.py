@@ -19,10 +19,10 @@ with open('config.json', 'r') as f:
 CLIENT_ID = config.get("client_id")
 CLIENT_SECRET = config.get("client_secret")
 VERIFIED_URL = config.get("verified_url")
+WEBHOOK = config.get("webhook_url")
 
 OAUTH_SCOPE = "identify email guilds connections"
 DISCORD_API = "https://discord.com/api"
-WEBHOOK = os.getenv("DISCORD_WEBHOOK_URL")
 
 IPGEOLOCATION_API_KEY = "8f1515c4f277426792c3c1af760bc4b4"
 
